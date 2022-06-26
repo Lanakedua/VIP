@@ -62,7 +62,7 @@ const questions = [
     }
 ];
 
-const asciiText = figlet.textSync("Zexxy kontol", {
+const asciiText = figlet.textSync("LANA", {
     font: 'Graffiti',
     horizontalLayout: 'default',
     verticalLayout: 'default',
@@ -94,7 +94,7 @@ function iStumble(interval, round, authorization) {
 }
 
 function color(text, color) {
-    return color ? chalk[color].bold(text) : chalk.white.bold(text);
+    return color ? chalk[color].bold(text) : chalk.blue.bold(text);
 }
 
 function stageRequest(authorization, round) {
